@@ -6,10 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
-public class FileUploadClass {
+import annotation.TestBase;
 
-	public static void main(String[] args) {
+public class FileUploadClass extends TestBase{
+
+	@Test
+	public void verifyFileCanBeUploaded() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");		
 		WebDriver driver = new  ChromeDriver();	
 		driver.manage().window().maximize();

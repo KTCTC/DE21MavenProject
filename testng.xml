@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankingProject">
+  <test thread-count="5" name="Regression">
+    <classes>
+      <class name="annotation.Annotation2"/>     
+      <class name="annotation.AnnotationInTestNG"/>  <!--  this is sample comment in xml file -->
+    </classes>
+  </test> <!-- Regression -->  
+  <test thread-count="5" name="Smoke">
+    <classes>    
+      <class name="fileupload.FileUploadClass"/>      
+    </classes>
+  </test> <!-- Smoke -->
+</suite> <!-- BankingProject -->

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BankingProject" duration-ms="17418" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:09:07 IST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="117" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+      <class name="annotation.AnnotationInTestNG">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="A()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="A" duration-ms="3" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="afterMethod" is-config="true" duration-ms="5" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="B()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="B" duration-ms="3" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserCanUploadFile()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="verifyUserCanUploadFile" duration-ms="2" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanUploadFile -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:annotation.AnnotationInTestNG@184f6be2]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- annotation.AnnotationInTestNG -->
+      <class name="annotation.Annotation2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:annotation.Annotation2@6895a785]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:annotation.Annotation2@6895a785]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotation.Annotation2@6895a785]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserCanLoginWithValidCredentials()[pri:0, instance:annotation.Annotation2@6895a785]" name="verifyUserCanLoginWithValidCredentials" duration-ms="9" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginWithValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotation.Annotation2@6895a785]" name="afterMethod" is-config="true" duration-ms="4" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotation.Annotation2@6895a785]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:annotation.Annotation2@6895a785]" name="verifyUserCanNotLoginWithInvalidCredentials" duration-ms="2" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanNotLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotation.Annotation2@6895a785]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:annotation.Annotation2@6895a785]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:annotation.Annotation2@6895a785]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- annotation.Annotation2 -->
+    </test> <!-- Regression -->
+    <test name="Smoke" duration-ms="17233" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:09:07 IST">
+      <class name="fileupload.FileUploadClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyFileCanBeUploaded()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="verifyFileCanBeUploaded" duration-ms="17226" started-at="2022-05-03T22:08:49 IST" finished-at="2022-05-03T22:09:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileCanBeUploaded -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-03T22:09:07 IST" finished-at="2022-05-03T22:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-05-03T22:09:07 IST" finished-at="2022-05-03T22:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-05-03T22:09:07 IST" finished-at="2022-05-03T22:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:fileupload.FileUploadClass@7a765367]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-05-03T22:09:07 IST" finished-at="2022-05-03T22:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- fileupload.FileUploadClass -->
+    </test> <!-- Smoke -->
+  </suite> <!-- BankingProject -->
+</testng-results>
