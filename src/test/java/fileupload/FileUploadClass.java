@@ -22,8 +22,7 @@ public class FileUploadClass extends TestBase{
 		inputFile.sendKeys(System.getProperty("user.dir")+"\\DE21Prop.properties");
 		
 		driver.findElement(By.id("terms")).click();
-		driver.findElement(By.id("submitbutton")).click();
-		
+		driver.findElement(By.id("submitbutton")).click();	
 		WebDriverWait wt = new WebDriverWait(driver, 5);
 		wt.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//h3[@id='res']//center[contains(text(),'1 file ')]"))));
 		String txt = driver.findElement(By.xpath("//h3[@id='res']//center[contains(text(),'1 file ')]")).getText();
