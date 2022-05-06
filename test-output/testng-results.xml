@@ -1,169 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="202" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
+  <suite name="Default suite" duration-ms="172284" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:04:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="202" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
-      <class name="assertion.SoftAssertClass">
-        <test-method status="FAIL" signature="A()[pri:0, instance:assertion.SoftAssertClass@614ddd49]" name="A" duration-ms="31" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-did not expect [450.55] but found [450.55],
-Share price is not matching expected [450] but found [450.55],
-expected value and value displayed on UI is not same expected [false] but found [true],
-Actual message displayed on UI for file upload and expected message are not same expected [1 file has been uploaded successfully.] but found [1 file has been uploaded successfully]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-did not expect [450.55] but found [450.55],
-Share price is not matching expected [450] but found [450.55],
-expected value and value displayed on UI is not same expected [false] but found [true],
-Actual message displayed on UI for file upload and expected message are not same expected [1 file has been uploaded successfully.] but found [1 file has been uploaded successfully]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at assertion.SoftAssertClass.A(SoftAssertClass.java:48)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="Default test" duration-ms="172284" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:04:52 IST">
+      <class name="dataprovider.DataProviderAnnotationForToolQA">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="beforeClassMethod" is-config="true" duration-ms="105864" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:03:46 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- A -->
-        <test-method status="PASS" signature="B()[pri:0, instance:assertion.SoftAssertClass@614ddd49]" name="B" duration-ms="7" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="addUserWithProvidedDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="addUserWithProvidedDetails" duration-ms="33478" started-at="2022-05-06T22:03:46 IST" data-provider="UserDetails" finished-at="2022-05-06T22:04:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amar@p.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- B -->
-        <test-method status="FAIL" signature="sampleTestCaseForAllTypesOFAsssertion()[pri:0, instance:assertion.SoftAssertClass@614ddd49]" name="sampleTestCaseForAllTypesOFAsssertion" duration-ms="5" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-sAssert cannot be resolved
-
-at assertion.SoftAssertClass.sampleTestCaseForAllTypesOFAsssertion(SoftAssertClass.java:63)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        </test-method> <!-- addUserWithProvidedDetails -->
+        <test-method status="PASS" signature="addUserWithProvidedDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="addUserWithProvidedDetails" duration-ms="32687" started-at="2022-05-06T22:04:20 IST" data-provider="UserDetails" finished-at="2022-05-06T22:04:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amol@g.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[56787]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Finance]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTestCaseForAllTypesOFAsssertion -->
-        <test-method status="FAIL" signature="verifyUserCanUploadFile()[pri:0, instance:assertion.SoftAssertClass@614ddd49]" name="verifyUserCanUploadFile" duration-ms="5" started-at="2022-05-04T22:01:43 IST" finished-at="2022-05-04T22:01:43 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Annotation class object is not initialized expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Annotation class object is not initialized expected object to not be null
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at assertion.SoftAssertClass.verifyUserCanUploadFile(SoftAssertClass.java:57)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCanUploadFile -->
-      </class> <!-- assertion.SoftAssertClass -->
+        </test-method> <!-- addUserWithProvidedDetails -->
+      </class> <!-- dataprovider.DataProviderAnnotationForToolQA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
