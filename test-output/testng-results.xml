@@ -1,89 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="172284" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:04:52 IST">
+  <suite name="Default suite" duration-ms="45189" started-at="2022-05-07T21:51:52 IST" finished-at="2022-05-07T21:52:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="172284" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:04:52 IST">
-      <class name="dataprovider.DataProviderAnnotationForToolQA">
-        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="beforeClassMethod" is-config="true" duration-ms="105864" started-at="2022-05-06T22:02:00 IST" finished-at="2022-05-06T22:03:46 IST">
+    <test name="Default test" duration-ms="45189" started-at="2022-05-07T21:51:52 IST" finished-at="2022-05-07T21:52:37 IST">
+      <class name="brockenlinks.BrockenLinkTestCase">
+        <test-method status="FAIL" signature="getAllLinksStatusCode()[pri:0, instance:brockenlinks.BrockenLinkTestCase@7f13d6e]" name="getAllLinksStatusCode" duration-ms="45125" started-at="2022-05-07T21:51:52 IST" finished-at="2022-05-07T21:52:37 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+https://demoqa.com/bad-request is broken with status code = 400 And response message = Bad Request expected [true] but found [false],
+https://demoqa.com/unauthorized is broken with status code = 401 And response message = Unauthorized expected [true] but found [false],
+https://demoqa.com/forbidden is broken with status code = 403 And response message = Forbidden expected [true] but found [false],
+https://demoqa.com/invalid-url is broken with status code = 404 And response message = Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+https://demoqa.com/bad-request is broken with status code = 400 And response message = Bad Request expected [true] but found [false],
+https://demoqa.com/unauthorized is broken with status code = 401 And response message = Unauthorized expected [true] but found [false],
+https://demoqa.com/forbidden is broken with status code = 403 And response message = Forbidden expected [true] but found [false],
+https://demoqa.com/invalid-url is broken with status code = 404 And response message = Not Found expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at brockenlinks.BrockenLinkTestCase.getAllLinksStatusCode(BrockenLinkTestCase.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method status="PASS" signature="addUserWithProvidedDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="addUserWithProvidedDetails" duration-ms="33478" started-at="2022-05-06T22:03:46 IST" data-provider="UserDetails" finished-at="2022-05-06T22:04:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Amar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[P]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[amar@p.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[23456]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[IT]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addUserWithProvidedDetails -->
-        <test-method status="PASS" signature="addUserWithProvidedDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderAnnotationForToolQA@6497b078]" name="addUserWithProvidedDetails" duration-ms="32687" started-at="2022-05-06T22:04:20 IST" data-provider="UserDetails" finished-at="2022-05-06T22:04:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Amol]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[G]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[amol@g.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[44]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[56787]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Finance]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addUserWithProvidedDetails -->
-      </class> <!-- dataprovider.DataProviderAnnotationForToolQA -->
+        </test-method> <!-- getAllLinksStatusCode -->
+      </class> <!-- brockenlinks.BrockenLinkTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

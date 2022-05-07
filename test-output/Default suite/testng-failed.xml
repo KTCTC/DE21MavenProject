@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="invocation.InvocationInTestNG">
+      <class name="brockenlinks.BrockenLinkTestCase">
         <methods>
-          <include name="verifyUserCanBeAdded"/>
+          <include name="getAllLinksStatusCode"/>
         </methods>
-      </class> <!-- invocation.InvocationInTestNG -->
+      </class> <!-- brockenlinks.BrockenLinkTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
